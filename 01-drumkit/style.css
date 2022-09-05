@@ -30,7 +30,7 @@ h6 {
 -------------*/
 
 body {
-  background: url('img/bg.jpg') bottom center;
+  background: url('img/bg.jpg') center bottom;
   background-size: cover;
 }
 
@@ -60,6 +60,8 @@ body {
   border-radius: 0.5rem;
   transition: all 0.07s ease;
   background-color: rgba(0, 0, 0, 0.4);
+
+  cursor: pointer;
 }
 
 kbd {
