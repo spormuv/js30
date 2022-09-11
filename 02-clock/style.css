@@ -86,3 +86,11 @@ h6 {
   position: absolute;
   top: 50%;
 }
+
+.second-hand {
+  height: 2px;
+}
+
+.min-hand {
+  height: 5px;
+}
