@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 1rem;
+
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+
+  background: #193549;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+img {
+  max-width: 100%;
+}
