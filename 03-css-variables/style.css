@@ -15,7 +15,7 @@ body {
 
   font-family: 'helvetica neue', sans-serif;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 2.5rem;
   color: #fff;
   text-align: center;
 
@@ -31,7 +31,7 @@ input {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
   padding: var(--spacing);
   background: var(--base);
   filter: blur(var(--blur));
@@ -39,4 +39,31 @@ img {
 
 .hl {
   color: var(--base);
+}
+
+@media (max-width: 900px) {
+  body {
+    padding-top: 50px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.5rem;
+  }
 }
