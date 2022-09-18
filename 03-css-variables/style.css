@@ -1,3 +1,14 @@
+/*variables
+-----------------------*/
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+/*main
+-----------------------*/
+
 body {
   margin: 0;
   padding: 1rem;
@@ -21,4 +32,11 @@ input {
 
 img {
   max-width: 100%;
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--base);
 }
