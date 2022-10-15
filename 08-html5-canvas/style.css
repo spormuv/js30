@@ -3,6 +3,28 @@ body {
   margin: 0;
 }
 
+.title {
+  margin: 0;
+  padding: 0;
+
+  color: #fff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  font-style: italic;
+  text-shadow: 2px 2px 5px #b92020;
+
+  background: linear-gradient(
+    90deg,
+    rgba(84, 182, 78, 1) 29%,
+    rgba(245, 17, 10, 1) 100%
+  );
+}
 #draw {
   display: block;
+  height: calc(100vh - 64px);
+  width: 100vw;
+  position: relative;
+  z-index: 5;
 }
