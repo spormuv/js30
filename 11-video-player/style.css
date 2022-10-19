@@ -57,7 +57,7 @@ body {
   text-align: center;
 
   background: none;
-  border: none;
+  border: 0;
   outline: none;
   cursor: pointer;
 }
@@ -102,17 +102,16 @@ body {
   position: relative;
   display: flex;
   flex-basis: 100%;
-  flex: 10;
 
   transition: height 0.3s;
   background: rgba(0, 0, 0, 0.1);
   cursor: ew-resize;
 }
 
-.progress_filled {
-  width: 50%;
+.progress__filled {
+  /* width: 50%; */
   flex-basis: 50%;
-  flex: 0;
+  /* flex: 0; */
 
   background: #ffc600;
 }
