@@ -9,7 +9,11 @@
   </head>
   <body>
     <div class="player">
-      <video class="player__video viewer" src="video/clip.mp4"></video>
+      <video
+        class="player__video viewer"
+        src="video/clip.mp4"
+        preload="metadata"
+      ></video>
 
       <div class="player__controls">
         <div class="progress">
@@ -36,6 +40,7 @@
         />
         <button data-skip="-10" class="player__btn">« 10s</button>
         <button data-skip="25" class="player__btn">25s »</button>
+        <button class="player-btn_full">&#x26F6;</button>
       </div>
     </div>
 

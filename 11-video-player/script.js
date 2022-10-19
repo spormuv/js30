@@ -60,3 +60,7 @@ progress.addEventListener('click', scrub);
 progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
 progress.addEventListener('mousedown', () => (mousedown = true));
 progress.addEventListener('mouseup', () => (mousedown = false));
+
+player.querySelector('.player-btn_full').addEventListener('click', function () {
+  player.classList.toggle('player_fullscreen');
+});

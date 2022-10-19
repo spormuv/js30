@@ -26,6 +26,7 @@ body {
 
 .player {
   max-width: 750px;
+  max-height: 100vh;
   position: relative;
 
   font-size: 0;
@@ -37,7 +38,7 @@ body {
 
 /* Only when fullscreen is active */
 
-.player:fullscreen {
+.player_fullscreen {
   max-width: none;
   width: 100%;
 }
@@ -46,6 +47,7 @@ body {
 
 .player__video {
   width: 100%;
+  max-height: 100vh;
 }
 
 .player__btn {
@@ -62,8 +64,20 @@ body {
   cursor: pointer;
 }
 
-.player__btn:focus {
-  border-color: #ffc600;
+.player-btn_full {
+  padding: 2px;
+  margin-right: 5px;
+  max-width: 30px;
+
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+
+  background: none;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }
 
 .player__slider {
@@ -109,10 +123,7 @@ body {
 }
 
 .progress__filled {
-  /* width: 50%; */
   flex-basis: 50%;
-  /* flex: 0; */
-
   background: #ffc600;
 }
 
