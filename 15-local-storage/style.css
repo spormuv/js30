@@ -41,7 +41,7 @@ h2 {
 }
 
 .plates {
-  margin: 0;
+  margin: 15px 0 0;
   padding: 0;
   text-align: left;
   list-style: none;
@@ -72,12 +72,22 @@ h2 {
   content: '🌮';
 }
 
-.add-items {
+.form {
   margin-top: 20px;
 }
 
-.add-items input {
+.form input {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn-clear {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
