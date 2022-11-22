@@ -36,7 +36,14 @@ function startGame() {
   timeUp = false;
   score = 0;
   peep();
-  setTimeout(() => (timeUp = true), 10000);
+  setTimeout(() => {
+    timeUp = true;
+    setTimeout(
+      () =>
+        alert(`Time is up! Your score is: ${score}\nTo play again press START`),
+      800
+    );
+  }, 10000);
 }
 
 function bonk(e) {
