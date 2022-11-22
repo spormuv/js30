@@ -17,11 +17,12 @@ body {
 }
 
 video {
-  box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .speed {
   margin: 10px;
+  padding: 0 3px;
   flex: 1;
   display: flex;
   align-items: flex-start;
@@ -44,5 +45,5 @@ video {
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+  background: linear-gradient(-170deg, #78716c 0%, #b18b60 100%);
 }
