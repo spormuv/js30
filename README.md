@@ -1,6 +1,6 @@
 # JavaScript30
 
-Here are completed small projects from the [JavaScript30](https://javascript30.com/) course, completed with slight modifications. All the projects are written in pure JavaScript, without the use of any libraries and frameworks
+Here are completed small projects from the [JavaScript30](https://javascript30.com/) course with slight modifications. All the projects are written in pure JavaScript, without the use of any libraries and frameworks
 
 ## These projects are:
 
